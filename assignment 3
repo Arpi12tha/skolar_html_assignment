@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Schedule</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Weekly Schedule</h2>
+
+<table>
+  <tr>
+    <th>Day</th>
+    <th>8:00 AM - 4:00 PM</th>
+    <th>5:00 PM - 7:00 PM</th>
+    <th>7:00 PM - 8:00 PM</th>
+  </tr>
+  <tr>
+    <td>Monday</td>
+    <td>College</td>
+    <td>Study</td>
+    <td>Yoga</td>
+  </tr>
+  <tr>
+    <td>Tuesday</td>
+    <td>College</td>
+    <td>Study and internship</td>
+    <td>Relaxation</td>
+  </tr>
+  <tr>
+    <td>Wednesday</td>
+    <td>College</td>
+    <td>Workshops</td>
+    <td>Study</td>
+  </tr>
+  <tr>
+    <td>Thursday</td>
+    <td>College</td>
+    <td>Study</td>
+    <td>Exercise</td>
+  </tr>
+  <tr>
+    <td>Friday</td>
+    <td>College</td>
+    <td>Study</td>
+    <td>Relaxation</td>
+  </tr>
+  <tr>
+    <td>Saturday</td>
+    <td>Family Time</td>
+    <td>Shopping</td>
+    <td>Movie Night</td>
+  </tr>
+  <tr>
+    <td>Sunday</td>
+    <td>Relaxation</td>
+    <td>Sports</td>
+    <td>Rest</td>
+  </tr>
+</table>
+
+</body>
+</html>
