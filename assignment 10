@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML Example</title>
+    <style>
+        /* Basic styles for layout and design */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header, nav, section, article, aside, footer {
+            padding: 20px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+        }
+        nav {
+            background-color: #343a40;
+            color: white;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        article, aside {
+            background-color: white;
+            padding: 20px;
+            flex: 1 1 45%;
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header section of the page -->
+<header>
+    <h1>#Welcome to My Website!!!</h1>
+</header>
+
+<!-- Navigation menu for the website -->
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+<!-- Main content section of the page -->
+<section>
+       <!-- Main article content -->
+    <article>
+        <h2>@Environment</h2>
+        <p>The natural environment or natural world encompasses all biotic and abiotic things occurring naturally, meaning in this case not artificial. The term is most often applied to Earth or some parts of Earth. This environment encompasses the interaction of all living species, climate, weather and natural resources that affect human survival and economic activity.</p>
+        
+    </article>
+    <!-- Related content or sidebar -->
+
+     <aside>
+        <h2>Human impact on water</h2>
+        <p>Humans impact the water in different ways such as modifying rivers (through dams and stream channelization), urbanization, and deforestation. These impact lake levels, groundwater conditions, water pollution, thermal pollution, and marine pollution.</p>
+    </aside>
+     <!-- Main article content -->
+    
+    <article>
+        <h2>@Deforestation</h2>
+        <p>Deforestation is the purposeful clearing of forested land.Deforestation has greatly altered landscapes around the world.</p>
+        
+    </article>
+    <!-- Related content or sidebar -->
+    <aside>
+        <h2>Control</h2>
+        <p>Policies for forest protection include information and education programs, economic measures to increase revenue returns from authorized activities and measures to increase effectiveness of "forest technicians and forest managers".</p>
+    </aside>
+</section>
+<!-- Footer section of the page -->
+<footer>
+    <p>&copy; 2024 My Website. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
