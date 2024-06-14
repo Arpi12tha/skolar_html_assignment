@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Movies</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        ol {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #009688;
+        }
+        ul {
+            list-style-type: none;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            padding-left: 0;
+        }
+        ul li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>My 5 Favorite Movies</h1>
+    <ol>
+        <li>
+            <h2>All of us are dead</h2>
+            <ul>
+                <li>Year Released: 2022</li>
+                <li>Main Actors: Lee Cheong-san,Choi Nam-ra</li>
+                <li>Brief Description: A high school becomes ground zero for a zombie virus outbreak.</li>
+            </ul>
+        </li>
+        <li>
+            <h2>The Conjuring</h2>
+            <ul>
+                <li>Year Released:2013</li>
+                <li>Main Actors: Lorraine Warren,Ed Warren</li>
+                <li>Brief Description: The film focused on the Warrens' 1971 case in which they investigated a witch's curse at a farmhouse in Harrisville, Rhode Island.</li>
+            </ul>
+        </li>
+        <li>
+            <h2>Asur</h2>
+            <ul>
+                <li>Year Released: 2020</li>
+                <li>Main Actors: Dhananjay Rajput,Nikhil Sobti,Shubh Joshi</li>
+                <li>Brief Description:A psychopath killer with a twisted philosophy deep-seated in Indian mythology is on the loose. </li>
+            </ul>
+        </li>
+        <li>
+            <h2>Forensic</h2>
+            <ul>
+                <li>Year Released: 2020</li>
+                <li>Main Actors: Samuel John kattokkaran,Rithika Xavier</li>
+                <li>Brief Description: Samuel John Kattookkaran (Tovino Thomas) is a medico-legal advisor (forensic personnel), who is assigned to the case of a serial killer targeting little girls. </li>
+            </ul>
+        </li>
+        <li>
+            <h2>Cult of Chucky</h2>
+            <ul>
+                <li>Year Released: 2017</li>
+                <li>Main Actors:Nieca Pierce,Andy Barclay </li>
+                <li>Brief Description: Chucky returns to terrorize his human victim, Nica.  </li>
+            </ul>
+        </li>
+    </ol>
+</body>
+</html>
