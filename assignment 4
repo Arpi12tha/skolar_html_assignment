@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML image and links</title>
+</head>
+<body>
+    <h2>SCENARY</h2>
+    <figure>
+        <img src="https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-scenery-free-photo.jpg?w=2210&quality=70" alt="scenary" width="300" height="400">
+        <figcaption>The calm and beautiful scenary.</figcaption>
+    </figure>
+    <a href="https://www.google.com/search?sca_esv=361f429e8db713bc&sca_upv=1&rlz=1C1YTUH_enIN983IN983&sxsrf=ADLYWIKfqXbvbCwaG5MPKQ1dkLEAlQHMQA:1718291149249&q=scenery&udm=2&fbs=AEQNm0B8dVdIWR07uWWlg1TdKnNtA1cwMugrQsIKmAo5AEZHWRFlUeGLxYlhagMfUatSvHu3MSamP9Qd2SfjyZyVIdPFrZFmdorP0BQX-5QUvERZ7CgntLysKxPYR85LNkkQ-ODVQlzCBgHDwYGwBEtb1wyzIiqYOAGOFOhRLG73H-MUdJY1ZFjTgiSsk2gQgTHDHU_Mnn5ewYy4nGfZAENFgsXyYdMtYQ&sa=X&ved=2ahUKEwiYi8ms7diGAxWew6ACHRfWBfgQtKgLegQIFBAB&biw=1536&bih=695&dpr=1.25#vhid=uqWg3Uvm10-H0M&vssid=mosaic">visit google</a>
+</body>
+</html>
+   
