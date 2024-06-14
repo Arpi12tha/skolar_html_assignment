@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML Document</title>
+    <style>
+        h1{
+            text-align:center;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+        main {
+            display: flex;
+            padding: 20px;
+        }
+        article {
+            flex: 2;
+            padding-right: 20px;
+        }
+        aside {
+            flex: 1;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+<main>
+    <article>
+        <header>
+            <h2>Artificial Intelligence</h2>
+         </header>
+            <p>Artificial intelligence is the simulation of human intelligence processes by machines, especially computer systems.</p>
+            <p>Examples of AI applications include expert systems, natural language processing (NLP), speech recognition and machine vision.</p>
+            </article>
+            <aside>
+                <header>
+                    <h3>Related Links</h3>
+                </header>
+                <ul>
+                    <li><a href="https://www.techtarget.com/searchenterpriseai/definition/AI-Artificial-Intelligence">What is AI?</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Artificial_intelligence">History of AI</a></li>
+                    <li><a href="https://www.ibm.com/topics/artificial-intelligence">Deep learning vs machine learning</a></li>
+                </ul>
+
+            </aside>
+        
+</main>
+<footer clss="footer">
+    <p>contact us at:<a href="abc@mywebsite.com">abc@mywebsite.com</a></p>
+    <p>&copy; 2024 wikipedia.All rights reserved.</p>
+
+</footer>
+</body>
+</html>
